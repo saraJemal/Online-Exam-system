@@ -1,0 +1,60 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 Aug 2024, 14:43:16
+    Author     : new
+*/
+body{
+    padding: 0;
+    margin: 0; 
+    font-family: verdana, Arial, Geneva, Arial Black;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+h1{
+    
+  color: darkblue;    
+}
+.logo{
+    height: 100px;
+    width: 150px; 
+    float: left;
+    margin-right: 30px;   
+}
+#cont{
+    background-color: #e5e4d7;
+    padding: 10px;
+    margin: 0px;   
+}
+#back{
+    background-image: url("../Images/index back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+input{
+    background-color: #e5e4d7;
+    margin: auto;
+    padding:auto;
+    
+}
+input[type=submit]{
+    background-color: #074f57;
+    width: 20%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 150px;
+    margin-left: 250px;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+    text-align: center; 
+}
+
+input[type=submit]:hover{
+    background-color: #d3d3d3;
+    color: black;
+}
